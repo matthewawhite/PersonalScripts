@@ -12,7 +12,7 @@ git remote add origin https://github.com/matthewawhite/"$1".git
 touch README.md
 touch .gitignore
 
-echo "#$1" > README.md
+echo "# $1" > README.md
 echo ".DS_Store" > .gitignore
 
 git config --global user.name "Matthew White"
