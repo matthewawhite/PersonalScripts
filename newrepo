@@ -15,8 +15,8 @@ touch .gitignore
 echo "# $1" > README.md
 echo ".DS_Store" > .gitignore
 
-git config --global user.name "Matthew White"
-git config --global user.email "mwhite1998@gmail.com"
+git config --global user.name "Your Name"
+git config --global user.email "Your email"
 
 git add .
 git commit -m "Initial commit"
